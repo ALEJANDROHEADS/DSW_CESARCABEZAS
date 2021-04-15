@@ -1,0 +1,214 @@
+/*CAMOLANO (Cesar Heads)
+DISEÑO DE SITIOS WEB  / UNAD
+ Unidad 1 - Fase 1 - Planeación
+FECHA: 14/04/2021
+DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario 
+*/
+
+/*Fondo de Pantalla ══════════════════════════════════════════════════════════════════════*/
+
+body {
+
+    margin: 0 !important ;
+    background-color: #daf3ff;
+    background: url(../img/Fondo.jpg) top center no-repeat fixed;
+    background-size: cover; 
+}
+
+.contenedor{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/*Pie de Pagina ══════════════════════════════════════════════════════════════════════════════════════*/
+  footer {
+    background-color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    bottom: 0;
+ width: 100%;
+    height: 30px;
+    color: white;
+  } 
+  /*Imagenes ═════════════════════════════════════════════════════════════════════════════════════════*/
+  .img-circle {  border-radius: 50%;  }
+  .img-rounded { border-radius: 6px;  }  
+  .img-perfil {
+    margin: 0 auto;
+ width: 100px;
+    padding: 3px;
+    border: 3px solid #d2d6de;}
+
+  .img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;  }
+  
+  .img-thumbnail {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+  }
+  .img-sm {
+    width: 30px !important;
+    height: 30px !important;
+}
+.img-md {
+    width:60px !important;
+    height: 60px !important;
+}
+ /*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
+  /* Personalización de Texto ════════════════════════════════════════════════════════════════════════*/
+  .text_primary{ color: rgb(1, 37, 85);  }
+  .text-muted { color: #999999;  }
+  .text-warning { color: #c09853;}
+  .text-danger { color: #b94a48;}
+  .text-success { color: #468847;}
+  .text-info { color: #3a87ad;}
+  .text-left { text-align: left;}
+  .text-right { text-align: right;}
+  .text-center { text-align: center;  }
+
+  /*Personalizacion de Iput ═════════════════════════════════════════════════════════════════════════*/
+  .form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #d2d6de;
+    }
+  .form-control:focus {
+    border-color: #3c8dbc;
+    box-shadow: none;
+  }
+/*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
+/*Implementacion de Paneles */
+  .box {
+      position: relative;
+      border-radius: 3px;
+      background: #ffffff;
+      border-top: 3px solid #d2d6de;
+      margin-bottom: 20px;
+   width: 100%;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+
+  .box-header {
+        color: #444;
+        display: block;
+        padding: 10px;
+        position: relative;
+  }
+  .box-body {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+     padding: 10px;
+  }
+  .box-header.with-border { border-bottom: 1px solid #f4f4f4; }
+  .box.box-default {  border-top-color: #d2d6de; }
+
+  .box-header .box-title {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+}
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+}
+/*══════════════════════════════════════════════════════════════════════════════
+   Filas, Columnas organización visualización Con Interfaz */
+   .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+
+ .col-md-1,
+ .col-md-2,
+ .col-md-3,
+ .col-md-4,
+ .col-md-5, 
+ .col-md-6,
+ .col-md-7,
+ .col-md-8,
+ .col-md-9,
+ .col-md-10,
+ .col-md-11{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+.col-md-1 { width: 8.333333333333332%;
+  }
+  .col-md-2 { width: 16.666666666666664%;  }
+  .col-md-3 { width: 25%;  }
+  .col-md-4 { width: 33.33333333333333%;  }
+  .col-md-5 { width: 41.66666666666667%;  }
+  .col-md-6 { width: 50%;  }
+  .col-md-7 { width: 58.333333333333336%;  }
+  .col-md-8 { width: 66.66666666666666%;  }
+  .col-md-9 { width: 75%;  }
+  .col-md-10 { width: 83.33333333333334%;  }
+  .col-md-11 { width: 91.66666666666666%;  }
+  .col-md-12 { width: 100%;  }
+
+  .col-md-push-0 { width: auto;  }
+  .col-md-push-1 { left: 8.333333333333332%;  }
+  .col-md-push-2 { left: 16.666666666666664%;  }
+  .col-md-push-3 { left: 25%;  }
+  .col-md-push-4 { left: 33.33333333333333%;   }
+  .col-md-push-5 { left: 41.66666666666667%;  }
+  .col-md-push-6 {  left: 50%;  }
+  .col-md-push-7 {  left: 58.333333333333336%;  }
+  .col-md-push-8 {  left: 66.66666666666666%;  }
+  .col-md-push-9 {  left: 75%;  }
+  .col-md-push-10 {  left: 83.33333333333334%;  }
+  .col-md-push-11 {  left: 91.66666666666666%;  }
+
+  .col-md-pull-0 {  right: auto;  }
+  .col-md-pull-1 {  right: 8.333333333333332%;  }
+  .col-md-pull-2 {  right: 16.666666666666664%;  }
+  .col-md-pull-3 {  right: 25%;  }
+  .col-md-pull-4 {  right: 33.33333333333333%;  }
+  .col-md-pull-5 {  right: 41.66666666666667%;  }
+  .col-md-pull-6 {  right: 50%;  }
+  .col-md-pull-7 {  right: 58.333333333333336%;  }
+  .col-md-pull-8 {  right: 66.66666666666666%;  }
+  .col-md-pull-9 { right: 75%;  }
+  .col-md-pull-10 {  right: 83.33333333333334%;  }  
+  .col-md-pull-11 {  right: 91.66666666666666%;  }
+ 
+  .col-md-offset-0 { margin-left: 0;   }
+  .col-md-offset-1 { margin-left: 8.333333333333332%; }
+  .col-md-offset-2 { margin-left: 16.666666666666664%;}
+  .col-md-offset-3 { margin-left: 25%;}
+  .col-md-offset-4 { margin-left: 33.33333333333333%;}
+  .col-md-offset-5 { margin-left: 41.66666666666667%;}
+  .col-md-offset-6 { margin-left: 50%;}
+  .col-md-offset-7 { margin-left: 58.333333333333336%;}
+  .col-md-offset-8 { margin-left: 66.66666666666666%;}
+  .col-md-offset-9 { margin-left: 75%;}
+  .col-md-offset-10 { margin-left: 83.33333333333334%;}
+  .col-md-offset-11 { margin-left: 91.66666666666666%;}
+
+
+
+
+/*═══════════════════════════════════════════════════════════════════════════════════*/
