@@ -163,15 +163,13 @@ body {
 
 /*Pie de Pagina ══════════════════════════════════════════════════════════════════════════════════════*/
 footer {
- 
-    position: absolute; /*!important;*/
-    bottom: 0   !important;
-    width: 98.8%;  
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 98.8%;
     background-color: #fff;
     border-top: 1px solid #dee2e6;
     color: #869099;
     padding: .5rem;
-
 } 
   /*Imagenes ═════════════════════════════════════════════════════════════════════════════════════════*/
 .img-circle {  border-radius: 50%;  }
