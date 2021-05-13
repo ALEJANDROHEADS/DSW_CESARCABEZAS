@@ -164,7 +164,7 @@ body {
 /*Pie de Pagina ══════════════════════════════════════════════════════════════════════════════════════*/
 footer {
  
-    /*position: absolute !important;*/
+    position: absolute; /*!important;*/
     bottom: 0   !important;
     width: 98.8%;  
     background-color: #fff;
@@ -229,6 +229,10 @@ footer {
   }
 /*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
 /*Implementacion de Paneles */
+.FRight {
+    float: right !important;
+}
+
   .box {
       position: relative;
       border-radius: 3px;
