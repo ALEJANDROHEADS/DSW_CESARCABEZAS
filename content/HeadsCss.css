@@ -88,7 +88,6 @@ a {
     font-size: .9rem;
     padding: 0.5rem 0.75rem;
 }
-
 .nav-sidebar .nav-link p {
     display: inline;
     margin: 0;
@@ -110,39 +109,30 @@ a {
     color: #002346;
     border-bottom: 1px solid #dee2e6;
 }
-
-
 .nav-sidebar .nav-treeview {
     display: none;
     list-style: none;
     padding: 0;
 }
-
 .nav-sidebar .nav-treeview > .nav-item > .nav-link > .nav-icon {
         width: 1.6rem;
  }
-
 .nav-sidebar .nav-item > .nav-link {
     margin-bottom: .2rem;
 }
-
 .nav-sidebar .nav-item > .nav-link .right {
     transition: -webkit-transform ease-in-out 0.3s;
     transition: transform ease-in-out 0.3s;
     transition: transform ease-in-out 0.3s, -webkit-transform ease-in-out 0.3s;
 }
-
 .nav-sidebar .nav-link > .right,
 .nav-sidebar .nav-link > p > .right {
     position: absolute;
     right: 1rem;
 }
-
 .nav-sidebar .nav-item:hover > .nav-treeview {
     display:block;
 }
-
-
 
 /*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
 /*Fondo de Pantalla ═════════════════════════════════════════════════════════════════════════════════*/
