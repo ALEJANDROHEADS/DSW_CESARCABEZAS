@@ -1,6 +1,4 @@
 
-
-
 .nav {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -16,11 +14,13 @@
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    width: calc(182px - .5rem * 2);
+    width: calc(100px - .5rem * 2);
+   
 }
 
 .nav-link:hover, .nav-link:focus {
     text-decoration: none;
+    color: #3a87ad !important;
 }
 
 .nav-link.disabled {
