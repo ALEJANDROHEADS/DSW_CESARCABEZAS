@@ -18,12 +18,13 @@ DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario
     padding: 20px;
 }
 .ContentF3 {
-    grid-column: 1/4;
-    background-color:lightgrey;
+    grid-column: 1/5;
+    
 }
 .aside-fanpage {
-    grid-column:4/6;
-    background-color:aqua;
+    grid-column:5/6;
+    background-color:#fff;
+    padding:2px;
 }
 
 .LogoUnad {
@@ -138,12 +139,12 @@ a {
     color: rgba(0,0,0,.5);
 }
 .nav-sidebar > .nav-item:hover > .nav-link {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: #212529;
+    background-color: aliceblue;/* rgba(0, 0, 0, 0.1);*/
+    color: #3a87ad; /*#212529;*/
 }
 .nav-sidebar .nav-treeview > .nav-item:hover > .nav-link {
     background-color: rgba(0, 0, 0, 0.1);
-    color: #002346;
+    color: #3a87ad; /* #002346;*/
     border-bottom: 1px solid #dee2e6;
 }
 .nav-sidebar .nav-treeview {
@@ -151,9 +152,10 @@ a {
     list-style: none;
     padding: 0;
 }
+
 .nav-sidebar .nav-treeview > .nav-item > .nav-link > .nav-icon {
-        width: 1.6rem;
- }
+    width: 1.6rem;
+}
 .nav-sidebar .nav-item > .nav-link {
     margin-bottom: .2rem;
 }
@@ -172,8 +174,9 @@ a {
 }
 .nav-sidebar .nav-item .nav-treeview .nav-item {
     background-color: aliceblue;
-    color:darkblue;
-
+    color: darkblue;
+    width: 70%;
+    margin-left: 38px;
 }
 /*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
 /*Fondo de Pantalla ═════════════════════════════════════════════════════════════════════════════════*/
