@@ -10,6 +10,43 @@ DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario
 /*https://www.youtube.com/watch?v=oZa2Ut8u2S0*/
 
 /*DSW-FASE 3 ═════════════════════════════════════════════════════════════════════════════════════════*/
+/*Pestañas "Tabs para administración de REcursos 1"*/
+[hidden] {
+    display: none;
+    /* visibility: hidden; opacity: 1; */
+}
+.tabs {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+   
+   
+}
+.tab-control {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    font-size: 1.25rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.tab-control:hover { color: #036191; }
+.tab-content {
+    border-top: 1px solid #036191;
+    padding: 1rem;
+}
+.tab-panel {     display: none; } 
+/* Magic style */
+input[type="radio"]:checked + .tab-control {
+    font-weight: 600;
+    color: #036191;
+    border-bottom-color: #036191;
+}
+#tab-1:checked ~ .tab-content > #tab-panel-1 {     display: block; }
+#tab-2:checked ~ .tab-content > #tab-panel-2 {     display: block; }
+#tab-3:checked ~ .tab-content > #tab-panel-3 {     display: block; }
+/********************************************************/
 .contentBodyF3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -21,10 +58,17 @@ DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario
     grid-column: 1/5;
     
 }
+.ContentRecF3 {
+    grid-column: 1/5;
+    max-height: 850px;
+    height: 850px;
+}
+
+
 .aside-fanpage {
-    grid-column:5/6;
-    background-color:#fff;
-    padding:2px;
+    grid-column: 5/6;
+    background-color: #fff;
+    padding: 2px;
 }
 
 .LogoUnad {
@@ -195,8 +239,6 @@ body {
 
 }
 
-
-
   /*Imagenes ═════════════════════════════════════════════════════════════════════════════════════════*/
 .img-circle {  border-radius: 50%;  }
 .img-rounded { border-radius: 6px;  }  
@@ -320,32 +362,28 @@ body {
 .table > tfoot > tr > td {
     border-top: 1px solid #f4f4f4;
 }
-
 .table > thead > tr > th {
     border-bottom: 2px solid #f4f4f4;
 }
-
 .table tr td .progress {
     margin-top: 5px;
 }
-
 .table-bordered {
     border: 1px solid #f4f4f4;
 }
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #f4f4f4;
+}
 
-    .table-bordered > thead > tr > th,
-    .table-bordered > tbody > tr > th,
-    .table-bordered > tfoot > tr > th,
-    .table-bordered > thead > tr > td,
-    .table-bordered > tbody > tr > td,
-    .table-bordered > tfoot > tr > td {
-        border: 1px solid #f4f4f4;
-    }
-
-    .table-bordered > thead > tr > th,
-    .table-bordered > thead > tr > td {
-        border-bottom-width: 2px;
-    }
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
 
 .table.no-border,
 .table.no-border td,

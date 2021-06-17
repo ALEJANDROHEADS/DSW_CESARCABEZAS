@@ -148,24 +148,34 @@
     </aside>
     <!--Contenido Grid Css  =====================================================================================-->
     <div class="contentBodyF3">
-        <section class="ContentF3">
-            <h2 class="text_primary text-center">Recurso 1</h2>
+        <section class="ContentRecF3">
+            <h2 class="text_primary text-center">Recurso 1 Programación HTML5 y CSS3</h2>
 
-            <h3 class="text_primary text-center">Diseño </h3>
-            <article>
+            <div class="col-md-11 ml-2">
+                <div class="tabs">
+                    <input hidden type="radio" name="tab-css" id="tab-1" checked />
+                    <label class="tab-control" for="tab-1">HTML5</label>
+                    <input hidden type="radio" name="tab-css" id="tab-2" />
+                    <label class="tab-control" for="tab-2">CSS3 </label>
+                    <input hidden type="radio" name="tab-css" id="tab-3" />
+                    <label class="tab-control" for="tab-3">GRID CSS</label>
 
-                <div class="col-md-11 ml-5">
-                    <span class="text_primary ">
-                        <b>HTML5:</b><br />
-
-
-                    </span>
+                    <div class="tab-content">
+                        <div id="tab-panel-1" class="tab-panel">
+                            <h3>HTML</h3>
+                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/Curso_HTML5_v1.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                        </div>
+                        <div id="tab-panel-2" class="tab-panel">
+                            <h3>CSS3</h3>
+                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/CursoCSS3.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                        </div>
+                        <div id="tab-panel-3" class="tab-panel">
+                            <h3>GRID CSS</h3>
+                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/CSSGrid_layout.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article>
-
-                <h3 class="text_primary text-center">Prop&oacute;sito de Actividad</h3>
-            </article>
+            </div>
         </section>
         <aside class="aside-fanpage">
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1271075489677597"
