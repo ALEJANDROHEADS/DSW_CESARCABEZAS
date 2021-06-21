@@ -5,12 +5,13 @@
     <title> CCABEZAS | HeadsNet </title>
     <meta name="author" content="Heads.Net - Cesar Alejandro Cabezas" />
     <link rel="shortcut icon" type="image/x-icon" href="../HeadsIcon.ico" />
+    <link href="../content/ColumnsCss.css" rel="stylesheet" />
     <link href="../content/HeadsCss.css" rel="stylesheet" />
     <link href="../content/navbarCss.css" rel="stylesheet" />
     <link href="../content/fontawesome-free/css/all.css" rel="stylesheet" />
 
 </HEAD>
-<BODY>
+<BODY> 
     <!-- Navbar -->
     <nav class="main-header navbar navbar-expand  navbar-Heads-horiz">
         <!-- Left navbar links -->
@@ -39,7 +40,7 @@
         </ul>-->
     </nav>
     <!-- /.navbar -->
-    <!-- M�nu Lateral Derecho -->
+    <!-- Mnu Lateral Derecho -->
     <aside class="main-sidebar ">
         <!-- Logo -->
         <a href="Index.html" class="brand-link">
@@ -151,21 +152,56 @@
         <section class="ContentF3">
             <h2 class="text_primary text-center">Recurso 2</h2>
 
-            <h3 class="text_primary text-center">Diseño </h3>
-            <article>
+            <div class="col-md-11 ml-2">
+                <div class="tabs">
+                    <input hidden type="radio" name="tab-css" id="tab-R2-1" checked />
+                    <label class="tab-control" for="tab-R2-1">AUDIO</label>
+                    <input hidden type="radio" name="tab-css" id="tab-R2-2" />
+                    <label class="tab-control" for="tab-R2-2">VIDEO </label>
 
-                <div class="col-md-11 ml-5">
-                    <span class="text_primary ">
-                        <b>HTML5:</b><br />
+                    <div class="tab-content">
+                        <div id="tab-panel-R2-1" class="tab-panel">
+                            <h3 class="text-center text_primary">Implementación | Audio Recurso Personal </h3>
+                            <div class="col-sm-12">
+                                <div class="row">
 
+                                    <div class="col-sm-6">
+                                        <br />
+                                        <h4 class="text_primary">Consejos de Programador</h4>
+                                        <span class="text_primary ">
 
-                    </span>
+                                            El Presente AudioRecurso hace referencia a una grabación del autor y da a conocer consejos como recurso informativo para los desarrolladores del curso Diseño Sitios Web. <br />
+                                        </span>
+
+                                        <audio controls="">
+                                            <source src="Audio/AudioRecurso2.mp3" type="audio/mp3">
+                                        </audio>
+                                    </div>
+
+                                    <div class="col-sm-5">
+                                        <img class="img-fluid" src="Img/Programer.jpg" alt="Photo">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div id="tab-panel-R2-2" class="tab-panel">
+                            <h3>Video Recurso Personal </h3>
+
+                            <div class="video-responsive">
+                                <video controls>
+                                    <source src="Video/VideoRecursos2.mp4" type="video/mp4">
+                                    <source src="Video/VideoRecursos2.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <!--<iframe src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            <article>
+            </div>
 
-                <h3 class="text_primary text-center">Prop&oacute;sito de Actividad</h3>
-            </article>
         </section>
         <aside class="aside-fanpage">
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1271075489677597"

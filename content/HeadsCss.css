@@ -10,6 +10,97 @@ DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario
 /*https://www.youtube.com/watch?v=oZa2Ut8u2S0*/
 
 /*DSW-FASE 3 ═════════════════════════════════════════════════════════════════════════════════════════*/
+/*ESTILO PARA BIBLIOGRAFIAS*/
+audio {
+width:350px;
+height:50px;
+
+}
+.biblio-body {
+    padding: 10px;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 12PX;
+    background-color: #EFF3F7;
+}
+.biblio-body ul li{
+     margin-top:15px;
+}
+.biblio-body ul li span {
+    margin-left: 50px
+}
+
+
+.cintas-Heads {
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 70px;
+    z-index: 10;
+}
+.cintas-Heads.cintas-lg {
+    height: 120px;
+    width: 120px;
+}
+.cintas-Heads.cintas-lg .cintas {
+    right: 0;
+    top: 26px;
+    width: 160px;
+}
+.cintas-Heads .cintas {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
+    line-height: 100%;
+    padding: 0.375rem 0;
+    position: relative;
+    right: -2px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    top: 10px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 90px;
+}
+.cintas-Heads .cintas::before, .cintas-Heads .cintas::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #9e9e9e;
+    bottom: -3px;
+    content: "";
+    position: absolute;
+}
+.cintas-Heads .cintas::before {
+    left: 0;
+}
+.cintas-Heads .cintas::after {
+    right: 0;
+}
+.position-relative {
+    position: relative !important;
+}
+/*════════════════════════════════════════════════════════════════════════════════════════════════════*/
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive video,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*====================================================================================================*/
+
 /*Pestañas "Tabs para administración de REcursos 1"*/
 [hidden] {
     display: none;
@@ -37,7 +128,7 @@ DESCRIPCION:  clase ccs para Implementacion estilo interface con usuario
     padding: 1rem;
 }
 .tab-panel {     display: none; } 
-/* Magic style */
+/* TAB RECURSO 1 */
 input[type="radio"]:checked + .tab-control {
     font-weight: 600;
     color: #036191;
@@ -46,6 +137,11 @@ input[type="radio"]:checked + .tab-control {
 #tab-1:checked ~ .tab-content > #tab-panel-1 {     display: block; }
 #tab-2:checked ~ .tab-content > #tab-panel-2 {     display: block; }
 #tab-3:checked ~ .tab-content > #tab-panel-3 {     display: block; }
+#tab-4:checked ~ .tab-content > #tab-panel-4 {     display: block; }
+
+/*TAB RECURSO 2*/
+#tab-R2-1:checked ~ .tab-content > #tab-panel-R2-1 {    display: block; }
+#tab-R2-2:checked ~ .tab-content > #tab-panel-R2-2 {    display: block; }
 /********************************************************/
 .contentBodyF3 {
     display: grid;
@@ -88,8 +184,16 @@ footer {
     border-top: 1px solid #dee2e6;
     color: #869099;
     padding: .5rem;
-} 
+}
 
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-info,
+.bg-info > a {
+    color: #fff !important;
+}
 /*════════════════════════════════════════════════════════════════════════════════════════════════════*/
 /*DSW-FASE 2══════════════════════════════════════════════════════════════════════════════════════════*/
 .content-body {
@@ -271,6 +375,11 @@ body {
     width:60px !important;
     height: 60px !important;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 /*═══════════════════════════════════════════════════════════════════════════════════════════════════*/
 /* Personalización de Texto ════════════════════════════════════════════════════════════════════════*/
 .text_primary{ color: rgb(1, 37, 85);  }
@@ -405,86 +514,6 @@ table.text-center th {
     text-align: right;
 }
 
-/*══════════════════════════════════════════════════════════════════════════════
-   Filas, Columnas organización visualización Con Interfaz */
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-
-.ml-auto, .mx-auto {
-    margin-left: auto !important;
-}
-
- .col-md-1,
- .col-md-2,
- .col-md-3,
- .col-md-4,
- .col-md-5, 
- .col-md-6,
- .col-md-7,
- .col-md-8,
- .col-md-9,
- .col-md-10,
- .col-md-11{
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-.col-md-1 { width: 8.333333333333332%;
-  }
-  .col-md-2 { width: 16.666666666666664%;  }
-  .col-md-3 { width: 25%;  }
-  .col-md-4 { width: 33.33333333333333%;  }
-  .col-md-5 { width: 41.66666666666667%;  }
-  .col-md-6 { width: 50%;  }
-  .col-md-7 { width: 58.333333333333336%;  }
-  .col-md-8 { width: 66.66666666666666%;  }
-  .col-md-9 { width: 75%;  }
-  .col-md-10 { width: 83.33333333333334%;  }
-  .col-md-11 { width: 91.66666666666666%;  }
-  .col-md-12 { width: 100%;  }
-
-  .col-md-push-0 { width: auto;  }
-  .col-md-push-1 { left: 8.333333333333332%;  }
-  .col-md-push-2 { left: 16.666666666666664%;  }
-  .col-md-push-3 { left: 25%;  }
-  .col-md-push-4 { left: 33.33333333333333%;   }
-  .col-md-push-5 { left: 41.66666666666667%;  }
-  .col-md-push-6 {  left: 50%;  }
-  .col-md-push-7 {  left: 58.333333333333336%;  }
-  .col-md-push-8 {  left: 66.66666666666666%;  }
-  .col-md-push-9 {  left: 75%;  }
-  .col-md-push-10 {  left: 83.33333333333334%;  }
-  .col-md-push-11 {  left: 91.66666666666666%;  }
-
-  .col-md-pull-0 {  right: auto;  }
-  .col-md-pull-1 {  right: 8.333333333333332%;  }
-  .col-md-pull-2 {  right: 16.666666666666664%;  }
-  .col-md-pull-3 {  right: 25%;  }
-  .col-md-pull-4 {  right: 33.33333333333333%;  }
-  .col-md-pull-5 {  right: 41.66666666666667%;  }
-  .col-md-pull-6 {  right: 50%;  }
-  .col-md-pull-7 {  right: 58.333333333333336%;  }
-  .col-md-pull-8 {  right: 66.66666666666666%;  }
-  .col-md-pull-9 { right: 75%;  }
-  .col-md-pull-10 {  right: 83.33333333333334%;  }  
-  .col-md-pull-11 {  right: 91.66666666666666%;  }
- 
-  .col-md-offset-0 { margin-left: 0;   }
-  .col-md-offset-1 { margin-left: 8.333333333333332%; }
-  .col-md-offset-2 { margin-left: 16.666666666666664%;}
-  .col-md-offset-3 { margin-left: 25%;}
-  .col-md-offset-4 { margin-left: 33.33333333333333%;}
-  .col-md-offset-5 { margin-left: 41.66666666666667%;}
-  .col-md-offset-6 { margin-left: 50%;}
-  .col-md-offset-7 { margin-left: 58.333333333333336%;}
-  .col-md-offset-8 { margin-left: 66.66666666666666%;}
-  .col-md-offset-9 { margin-left: 75%;}
-  .col-md-offset-10 { margin-left: 83.33333333333334%;}
-  .col-md-offset-11 { margin-left: 91.66666666666666%;}
-/*═══════════════════════════════════════════════════════════════════════════════════*/
 
 /*═══════════════════════════════════════════════════════════════════════════════════*/
 /*MARGEN  Y PADDING =*/
