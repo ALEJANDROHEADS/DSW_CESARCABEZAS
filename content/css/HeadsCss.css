@@ -333,7 +333,7 @@ a {
 body {
     margin: 0 !important;
     background-color: #daf3ff;
-    background: url(../img/Fondo.jpg) top center no-repeat fixed;
+    background: url(../../img/Fondo.jpg) top center no-repeat fixed;
     background-size: cover;
 }
 
