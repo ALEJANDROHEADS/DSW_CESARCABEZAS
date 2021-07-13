@@ -151,7 +151,7 @@ input[type="radio"]:checked + .tab-control {
     /*    margin-left: 200px;*/
     height: 100%;
     padding: 20px;
-    max-height: 1200px;
+    max-height: 1600px;
 }
 .ContentF3 {
     grid-column: 1/5;
