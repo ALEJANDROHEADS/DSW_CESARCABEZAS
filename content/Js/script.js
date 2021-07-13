@@ -1,3 +1,21 @@
+function VerificaMsjs() {
+
+
+    var nFrom = "top";// $(this).attr('data-from');
+    var nAlign = "right"; // $(this).attr('data-align');
+    var nIcons = "fa fa-comments"; //$(this).attr('data-icon');
+    var nType = "info";//$(this).attr('data-type');
+
+    var nAnimIn = "animated fadeInDown"; // $(this).attr('data-animation-in');
+    var nAnimOut = "animated fadeOutDown";  //$(this).attr('data-animation-out');
+
+    notify(nFrom, nAlign, nIcons, nType, nAnimIn, nAnimOut,"No se poseen Mensajes por el momento...");
+
+}
+
+
+
+
 "use strict";
 $(document).ready(function() {
     // card js start

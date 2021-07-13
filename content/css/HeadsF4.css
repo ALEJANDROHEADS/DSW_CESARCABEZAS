@@ -53,29 +53,13 @@ h6 {
     font-weight: 600;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 28px;
-}
-
-h4 {
-    font-size: 22px;
-}
-
-h5 {
-    font-size: 20px;
-}
-
-h6 {
-    font-size: 14px;
-}
+/*
+h1 {    font-size: 40px;}
+h2 {    font-size: 32px;}
+h3 {    font-size: 28px;}
+h4 {    font-size: 22px;}
+h5 {    font-size: 20px;}
+h6 {    font-size: 14px;}*/
 
 p {
     font-size: 13px;
@@ -219,7 +203,7 @@ code {
 
     .card .card-header h5:after {
         content: "";
-        background-color: #448aff;
+        background-color: #96abbf ;/* #448aff;*/
         position: absolute;
         left: -20px;
         top: 0;

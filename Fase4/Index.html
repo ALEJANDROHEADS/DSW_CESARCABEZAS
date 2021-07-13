@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <HTML lang="es-co">
 
 <head>
-    <title>Fase 4 |  Construcción III</title>
+    <title>DSW | Fase 4  Construcción III</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
@@ -31,6 +31,9 @@
 
     <!-- Implementación de Recursos icon -->
     <link rel="stylesheet" type="text/css" href="../content/icon/themify-icons/themify-icons.css">
+    <!--Implementación de Notificacione personalizadas -->
+    <link href="../content/HeadsNotific/HeadsNotific.css" rel="stylesheet" />
+
 
 </head>
 
@@ -90,6 +93,8 @@
     <div id="heads" class="heads">
         <div class="heads-overlay-box"></div>
         <div class="heads-container navbar-wrapper">
+
+            <!--Inicio Barra Horizontal ==============================-->
             <nav class="navbar header-navbar heads-header">
                 <div class="navbar-wrapper">
                     <div class="navbar-logo">
@@ -126,50 +131,8 @@
                                 </a>
                             </li>
                         </ul>
-                        
+
                         <ul class="nav-right">
-                            <!--<li class="header-notification">
-                                <a href="#!" class="waves-effect waves-light">
-                                    <i class="ti-bell"></i>
-                                    <span class="badge bg-c-red"></span>
-                                </a>
-                                <ul class="show-notification">
-                                    <li>
-                                        <h6>Notifications</h6>
-                                        <label class="label label-danger">New</label>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
-                                            <div class="media-body">
-                                                <h5 class="notification-user">John Doe</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
-                                            <div class="media-body">
-                                                <h5 class="notification-user">Joseph William</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
-                                            <div class="media-body">
-                                                <h5 class="notification-user">Sara Soudein</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>-->
                             <li class="user-profile header-notification">
                                 <a href="#!" class="waves-effect waves-light">
                                     <img src="../img/perfil.png" class="img-radius" alt="User-Profile-Image">
@@ -184,25 +147,22 @@
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
-                                        <a href="email-inbox.html">
+                                        <a onclick="VerificaMsjs();">
                                             <i class="ti-email"></i> Mis Mensajes
                                         </a>
                                     </li>
-                                    <!--<li class="waves-effect waves-light">
-                                        <a href="auth-lock-screen.html">
-                                            <i class="ti-lock"></i> Lock Screen
-                                        </a>
-                                    </li>-->
-
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <!--/Fin  Barra Horizontal ==============================-->
+
 
             <div class="heads-main-container">
                 <div class="heads-wrapper">
+                    <!--Inicio Menú Vertical   =============================================================-->
                     <nav class="heads-navbar">
                         <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
                         <div class="heads-inner-navbar main-menu">
@@ -222,27 +182,27 @@
                             <ul class="heads-item heads-left-item">
                                 <li class="heads-hasmenu">
                                     <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                        <span class="heads-micon"><i class="ti-layout-grid2-alt"></i><b>BC</b></span>
+                                        <span class="heads-micon"><i class="ti-files"></i><b>BC</b></span>
                                         <span class="heads-mtext">Temas</span>
                                         <span class="heads-mcaret"></span>
                                     </a>
                                     <ul class="heads-submenu">
                                         <li class=" ">
-                                            <a href="breadcrumb.html" class="waves-effect waves-dark">
+                                            <a href="Fase1.html" class="waves-effect waves-dark">
                                                 <span class="heads-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="heads-mtext">Tema   1</span>
                                                 <span class="heads-mcaret"></span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="button.html" class="waves-effect waves-dark">
+                                            <a href="Fase2.html" class="waves-effect waves-dark">
                                                 <span class="heads-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="heads-mtext">Tema   2</span>
                                                 <span class="heads-mcaret"></span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="accordion.html" class="waves-effect waves-dark">
+                                            <a href="Fase3.html" class="waves-effect waves-dark">
                                                 <span class="heads-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="heads-mtext">Tema   3</span>
                                                 <span class="heads-mcaret"></span>
@@ -254,9 +214,9 @@
                             <!--======================================================================================-->
                             <div class="heads-navigation-label">Recursos</div>
                             <ul class="heads-item heads-left-item">
-                                <li class="heads-hasmenu active heads-trigger">
+                                <li class="heads-hasmenu ">
                                     <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                        <span class="heads-micon"><i class="ti-files"></i><b>A</b></span>
+                                        <span class="heads-micon"><i class="ti-html5"></i><b>A</b></span>
                                         <span class="heads-mtext">Digitales </span>
                                         <span class="heads-mcaret"></span>
                                     </a>
@@ -320,30 +280,31 @@
                             <!--======================================================================================-->
                         </div>
                     </nav>
+                    <!--/Fin Menú Vertical   ===============================================================-->
+
                     <div class="heads-content">
 
-                        <!--Contenido Grid Css  ================================================================================================-->
+                        <!--Contenido Grid Css  ===============================================================================-->
                         <div class="contentBodyF3">
                             <section class="ContentF3">
-                                <!--=====================================================================================================================-->
+                                <!--===========================================================================================-->
                                 <div class="heads-inner-content">
                                     <div class="main-body">
 
                                         <div class="page-wrapper">
                                             <div class="page-body">
+                                                <h3 class="text_primary text-center">FASE 4 - DISEÑO Y CONSTRUCCION III</h3>
                                                 <div class="row">
+
                                                     <div class="col-sm-12">
                                                         <div class="card">
                                                             <div class="card-header">
-                                                                <h5>Hello card</h5>
-                                                                <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                                                                <h5>Introducci&oacute;n </h5>
+                                                                <span>Implementaci&oacute;n Framework</span>
                                                                 <div class="card-header-right">
                                                                     <ul class="list-unstyled card-option">
                                                                         <li>
                                                                             <i class="fa fa fa-wrench open-card-option"></i>
-                                                                        </li>
-                                                                        <li>
-                                                                            <i class="fa fa-window-maximize full-card"></i>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-minus minimize-card"></i>
@@ -358,59 +319,107 @@
                                                                 </div>
                                                             </div>
                                                             <div class="card-block">
-                                                                <p>
-                                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                                                    laborum."
-                                                                </p>
+                                                                <span class="text_primary ">
+                                                                    <b>Fase No. 4:</b><br />
+                                                                    Dentro de la presente actividad se implementa el framework Bootstrap quien ya contempla las tem&aacute;ticas trabajadas
+                                                                    y desarrolladas en fases anteriores “Interface usuarios y estilos css”, con esto se optimiza la interface con el cliente
+                                                                    ya que posee elementos tanto de estilos “css” como de comandos y componentes que ejecutan distintas acciones “JavaScript” pomo de podrá probar en esta la fase 4
+                                                                    <br><br>
+
+                                                                </span>
                                                             </div>
                                                         </div>
                                                     </div>
 
-                                                </div>
-
-                                                <div class="row">
                                                     <div class="col-sm-12">
-                                                        <h2 class="text_primary text-center">FASE 4 - DISEÑO Y CONSTRUCCION III</h2>
-
-                                                        <h3 class="text_primary text-center">Introducci&oacute;n</h3>
-                                                        <article>
-
-                                                            <div class="col-md-11 ml-5">
-                                                                <span class="text_primary ">
-                                                                    <b>Fase No. 4:</b><br />
-                                                                    La tercera fase de nuestro diseño del sitio web contempla evolución de las fases anteriores “<b>Fase 1  y Fase 2</b>”.
-                                                                    se tomarán los elementos desarrollados anteriormente dentro de los cuales se implementarán cada uno de los nuevos elementos
-                                                                    indicados dentro de la actividad de la presente actividad dentro de los cuales son.<br><br>
-
-                                                                    <b>Css3 :</b> Las siglas CSS corresponden a Cascading Style Sheets; Podría definirse como un tipo de lenguaje que permite definir y crear la presentación de un documento ya
-                                                                    estructurado y escrito en un lenguaje de marcado como puede ser HTML. Es decir, permite generar el diseño visual de páginas web e
-                                                                    interfaces de usuario. Esta herramienta ha evolucionado con el tiempo y actualmente se encuentra en su tercera versión.<br /><br />
-
-
-                                                                    <b>Grid Css :</b> CSS Grid es un modelo de maquetación CSS en base a una rejilla, similar pero de manera mas evolucionada que tablas,
-                                                                    este componente se implementa directamente desde código CSS para que los diseñadores pudieran posicionar
-                                                                    los elementos en una distribución de filas y columnas<br /><br />
-                                                                    <b>Iframe :</b>Esta etiqueta es una línea de código de programación que permite colocar un elemento HTML dentro de otro elemento HTML principal.
-
-                                                                </span>
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Objetivo</h5>
+                                                                <div class="card-header-right">
+                                                                    <ul class="list-unstyled card-option">
+                                                                        <li>
+                                                                            <i class="fa fa fa-wrench open-card-option"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-minus minimize-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-refresh reload-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-trash close-card"></i>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
-                                                        </article>
+                                                            <div class="card-block">
+                                                                <article>
 
-                                                        <article>
+                                                                    <div class="col-md-11 ml-5">
+                                                                        <h4 class="text_primary">Prop&oacute;sito de Actividad</h4>
+                                                                        <span class="text_primary ">
+                                                                            El prop&oacute;sito de la Actividad la implementaci&oacute;n del framework Bootstrap dentro del presente
+                                                                            Tema 4 “Diseño y Construcci&oacute;n III”; la implementaci&oacute;n se realizar&aacute; a los elementos dentro de la carpeta Fase 4
+                                                                            con lo cual se podr&aacute; evidenciar el antes y despu&eacute;s.<br /> Como Objetivo personal dentro de la tem&aacute;tica es subir
+                                                                            de nivel lo aprendido en la Fase 3 en la cual se crearon los estilos “Personales” dentro de la p&aacute;gina web,
+                                                                            con este entorno de trabajo “framework” se podemos contemplar, aprender e implementar lo ya realizado en este
+                                                                            entorno de trabajo para hacer m&aacute;s f&aacute;cil, &oacute;ptimo y agradable nuestro aplicativo.
 
-                                                            <div class="col-md-11 ml-5">
-                                                                <h3 class="text_primary text-center">Prop&oacute;sito de Actividad</h3>
-                                                                <span class="text_primary ">
-                                                                    El propósito de la Actividad conlleva la compresión e implementación de estilos para Etiquetas desde código css con lo cual se
-                                                                    pretende una personalización completa de nuestro sitio iniciado anteriormente en las Fases 1 y 2. Para lo cual se requiere llegar a una
-                                                                    comprensión del lenguaje css e identificación de elementos básicos utilizados en css cuya implementación logra un estilo en las etiquetas que nuestro sitio web.
-                                                                </span>
+                                                                        </span>
+                                                                    </div>
+                                                                </article>
                                                             </div>
-                                                        </article>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Bootstrap </h5>
+                                                                <span>Implementaci&oacute;n Framework Bootstrap</span>
+                                                                <div class="card-header-right">
+                                                                    <ul class="list-unstyled card-option">
+                                                                        <li>
+                                                                            <i class="fa fa fa-wrench open-card-option"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-minus minimize-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-refresh reload-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-trash close-card"></i>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-block">
+
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="text_primary ">
+                                                                            Con el bootstrap podemos optimizar la interfaz tanto en navegadores como pra todos los aplicativos pc, laptop o moviles como  smartphone o tablet sin perder la navegabilidad
+                                                                            <a href="https://www.arweb.com/blog/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web/">ARWEB (2020)</a>
+                                                                            <i class="text-muted Sz12">
+                                                                                "Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS
+                                                                                y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice.
+                                                                                Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo"
+                                                                            </i>
+                                                                            <br /><br />
+
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <img class="img-fluid" src="../img/f4/Bootstrap2.png" alt="Photo">
+                                                                        <span><a href="https://www.am-design.es/que-es-bootstrap-y-para-que-sirve">am-design.es (2021) </a></span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -445,7 +454,8 @@
     <script type="text/javascript" src="../content/Js/jquery/jquery.min.js "></script>
     <script type="text/javascript" src="../content/Js/jquery-ui/jquery-ui.min.js "></script>
 
-    <!--<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>-->
+    <!--<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>-->    
+    <script type="text/javascript" src="../content/Bootstrap/js/bootstrap-growl.min.js"></script>
     <script type="text/javascript" src="../content/Bootstrap/js/bootstrap.js "></script>
 
     <!-- waves js -->
@@ -455,11 +465,11 @@
     <!--<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>-->
 
     <script src="../content/Js/heads.min.js"></script>
-
     <script src="../content/Js/vertical/vertical-layout.min.js"></script>
-
     <!-- Custom js -->
     <script type="text/javascript" src="../content/Js/script.js"></script>
+    <!--Implementación Notificaciones Personalizadas-->
+    <script type="text/javascript" src="../content/HeadsNotific/HeadsNotific.js"></script>
 
 </body>
 
