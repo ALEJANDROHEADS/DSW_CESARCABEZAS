@@ -150,7 +150,6 @@ input[type="radio"]:checked + .tab-control {
 .contentBodyF4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /*    margin-left: 200px;*/
     height: 100%;
     padding: 20px;
     max-height: 1600px;
@@ -491,7 +490,6 @@ table.text-center th {
 
 /*═══════════════════════════════════════════════════════════════════════════════════*/
 /*MARGEN  Y PADDING =*/
-
 .mt-0{  margin-top: 0 !important;}
 .mr-0{  margin-right: 0 !important;}
 .mb-0{  margin-bottom: 0 !important;}
