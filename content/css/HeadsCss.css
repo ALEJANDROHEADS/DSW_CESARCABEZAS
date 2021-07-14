@@ -145,6 +145,8 @@ input[type="radio"]:checked + .tab-control {
 #tab-R2-1:checked ~ .tab-content > #tab-panel-R2-1 {    display: block; }
 #tab-R2-2:checked ~ .tab-content > #tab-panel-R2-2 {    display: block; }
 /********************************************************/
+
+
 .contentBodyF4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -153,7 +155,6 @@ input[type="radio"]:checked + .tab-control {
     padding: 20px;
     max-height: 1600px;
 }
-
 .contentBodyF3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -162,7 +163,6 @@ input[type="radio"]:checked + .tab-control {
     padding: 20px;
     max-height: 1600px;
 }
-
 .ContentF3 {
     grid-column: 1/5;
 }
