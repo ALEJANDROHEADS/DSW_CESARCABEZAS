@@ -1,247 +1,448 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <HTML lang="es-co">
-<HEAD>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title> CCABEZAS | HeadsNet </title>
-    <meta name="author" content="Heads.Net - Cesar Alejandro Cabezas" />
+
+<head>
+    <title>DSW | Fase 4  Construcción III</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Favicon icon -->
     <link rel="shortcut icon" type="image/x-icon" href="../HeadsIcon.ico" />
-    <link href="../content/css/ColumnsCss.css" rel="stylesheet" />
-    <link href="../content/css/HeadsCss.css" rel="stylesheet" />
-    <link href="../content/css/navbarCss.css" rel="stylesheet" />
+
+    <meta name="description" content="Dise�o Sitios Web Unidad 3 - Heads.Net">
+    <meta name="author" content="CesarCabezas Heads Net.">
+
+    <!-- Implementaci�n Iconos fontawesome  ""-->
     <link href="../content/fontawesome-free/css/all.css" rel="stylesheet" />
+    <!--*******************************************************************************************-->
+    <!-- Implementaci�n de Estilo Css Personalizado-->
+    <link href="../content/css/HeadsF4.css" rel="stylesheet" />
+    <link href="../content/css/HeadsCss.css" rel="stylesheet" />
+    <!--*******************************************************************************************-->
+    <!-- Inplementaci�n  Framework bootstrap -->
+    <link rel="stylesheet" type="text/css" href="../content/Bootstrap/css/bootstrap.css">
+    <!--*******************************************************************************************-->
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!--*******************************************************************************************-->
+    <!-- Implementacion Animaci�n  waves.css -->
+    <link rel="stylesheet" href="../content/waves/css/waves.min.css" type="text/css" media="all">
 
-</HEAD>
-<BODY>
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand  navbar-Heads-horiz">
-        <!-- Left navbar links -->
-        <ul class="navbar-nav ">
-            <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
-        </ul>
-        <div class="col-md-8 text_primary text-center"> <h2>DISE&Ntilde;O DE SITIOS WEB &nbsp;&nbsp;&nbsp;FASE 3</h2></div>
-        <div class="col-md-2">
-            <img src="Img/UNAD.gif" alt="Diseño de Sitios Web" class="LogoUnad">
-        </div>
-        <!-- <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-            <a href="../Index.html" class="nav-link text_primary"> <b>Fase 1</b></a>
-            </li>
-            <li class="nav-item  ">
-                <a href="#SecMockup" class="nav-link text_primary"><b>Mockup</b></a>
-            </li>
-            <li class="nav-item">
-                <a href="#SecFase2" class="nav-link text_primary"><b>HTML5</b></a>
-            </li>
-            <li class="nav-item">
-                <a href="#SecAcerca" class="nav-link text_primary"><b>Acerca</b></a>
-            </li>
-        </ul>-->
-    </nav>
-    <!-- /.navbar -->
-    <!-- M�nu Lateral Derecho -->
-    <aside class="main-sidebar ">
-        <!-- Logo -->
-        <a href="Index.html" class="brand-link">
-            <img src="../img/DSW.png" alt="Diseño de Sitios Web" class="brand-image ">
-        </a>
-        <!-- Sidebar Men� Vertical -->
-        <div class="sidebar">
-            <!-- Sidebar Menu -->
-            <nav class="mt-2">
-                <ul class="nav  nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+    <!-- Implementación de Recursos icon -->
+    <link rel="stylesheet" type="text/css" href="../content/icon/themify-icons/themify-icons.css">
+    <!--Implementación de Notificacione personalizadas -->
+    <link href="../content/HeadsNotific/HeadsNotific.css" rel="stylesheet" />
 
-                    <li class="nav-header">DISE&Ntilde;O SITIOS WEB</li>
-                    <li class="nav-item">
-                        <a href="Index.html" class="nav-link">
-                            <i class="nav-icon fas fa-home"></i>
-                            <p>
-                                Inicio
-                                <span class="badge badge-info right"></span>
-                            </p>
-                        </a>
-                    </li>
-                    <!--*******************************************************-->
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <p>
-                                Temas
-                                <i class="fas fa-angle-down right"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="Fase1.html" class="nav-link">
-                                    <i class="far fa-bookmark nav-icon"></i>
-                                    <p>Tema 1</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="Fase2.html" class="nav-link">
-                                    <i class="far fa-bookmark nav-icon"></i>
-                                    <p>Tema 2</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--*******************************************************-->
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <p>
-                                Recursos Digitales
-                                <i class="fas fa-angle-down right"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="Recurso1.html" class="nav-link">
-                                    <i class="far fa-dot-circle nav-icon"></i>
-                                    <p>Recurso 1</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="Recurso2.html" class="nav-link">
-                                    <i class="far fa-dot-circle nav-icon"></i>
-                                    <p>Recurso 2</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--*******************************************************-->
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <p>
-                                Aprendizaje
-                                <i class="fas fa-angle-down right"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="far fa-dot-circle nav-icon"></i>
-                                    <p>Actividad 1</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="far fa-dot-circle nav-icon"></i>
-                                    <p>Actividad 2</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--*******************************************************-->
-                    <li class="nav-header">ACERCA DE</li>
-                    <li class="nav-item">
-                        <a href="Autor.html" class="nav-link">
-                            <i class="nav-icon fas fa-user-circle "></i>
-                            <p> Autor </p>
-                        </a>
-                    </li>
+</head>
 
-
-                </ul>
-            </nav>
-            <!-- /.sidebar-menu -->
-        </div>
-        <!-- /.sidebar -->
-    </aside>
-    <!--Contenido Grid Css  =====================================================================================-->
-    <div class="contentBodyF3">
-        <section class="ContentRecF3">
-            <h2 class="text_primary text-center">Recurso 1 Programación HTML5 y CSS3</h2>
-
-            <div class="col-md-11 ml-2">
-                <div class="tabs">
-                    <input hidden type="radio" name="tab-css" id="tab-0" checked />
-                    <label class="tab-control" for="tab-0">ETIQUETAS</label>
-                    <input hidden type="radio" name="tab-css" id="tab-1"  />
-                    <label class="tab-control" for="tab-1">HTML5</label>
-                    <input hidden type="radio" name="tab-css" id="tab-2" />
-                    <label class="tab-control" for="tab-2">CSS3 </label>
-                    <input hidden type="radio" name="tab-css" id="tab-3" />
-                    <label class="tab-control" for="tab-3">GRID CSS</label>
-                    <input hidden type="radio" name="tab-css" id="tab-4" />
-                    <label class="tab-control" for="tab-4">BIBLIOGRAFIA</label>
-                    <div class="tab-content">
-                        <div id="tab-panel-0" class="tab-panel">
-                            <h3>ETIQUETAS HTML</h3>
-                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/Recurso%20EtiquetasHTML5_Personal.pdf" frameborder="0" height="600px" width="100%"></iframe>
-                        </div>
-                        <div id="tab-panel-1" class="tab-panel">
-                            <h3>HTML</h3>
-                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/Curso_HTML5_v1.pdf" frameborder="0" height="600px" width="100%"></iframe>
-                        </div>
-                        <div id="tab-panel-2" class="tab-panel">
-                            <h3>CSS3</h3>
-                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/CursoCSS3.pdf" frameborder="0" height="600px" width="100%"></iframe>
-                        </div>
-                        <div id="tab-panel-3" class="tab-panel">
-                            <h3>GRID CSS</h3>
-                            <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/CSSGrid_layout.pdf" frameborder="0" height="600px" width="100%"></iframe>
-                        </div>
-                        <div id="tab-panel-4" class="tab-panel">
-                            <h3>Bibliografia de Recursos 1</h3>
-                            <div class="position-relative">
-                                <div class="biblio-body">
-                                    <div class="cintas-Heads cintas-lg">
-                                        <div class="cintas bg-info">
-                                            Normas Apa
-                                        </div>
-                                    </div>
-
-                                    <ul>
-                                        <!---->
-                                        <li>
-                                            Molano, C. A. (20 de Junio de 2021). Recurso Etiquetas HTML5. Obtenido de Diseño Sitios Web<br />
-                                            <span><a href="https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/Recurso%20EtiquetasHTML5_Personal.pdf">https://alejandroheads.github.io/DSW_CESARCABEZAS/Fase3/Doc/Recurso%20EtiquetasHTML5_Personal.pdf</a></span>
-                                        </li>
-
-                                        <li>
-                                            contributors, M. (15 de Jun de 2021). CSS Grid Layout. Obtenido de<br />
-                                            <span><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout">https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout</a></span>
-                                        </li>
-                                        <li>
-                                            Docs, M. W. (16 de junio de 2021). (iframe ): el elemento Inline Frame. Obtenido de <br />
-                                            <span><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe">https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe</a></span>
-                                        </li>
-                                        <li>
-                                            Jiménez, J. D. (20 de Enero de 2019). Qué es CSS3 y sus fundamentos. Obtenido de Openwebinars:<br />
-                                            <span><a href="https://openwebinars.net/blog/que-es-css3/">https://openwebinars.net/blog/que-es-css3/ </a></span>
-                                        </li>
-                                        <!--<li>
-        Nulla volutpat aliquam velit
-        <ul>
-            <li>Phasellus iaculis neque</li>
-            <li>Purus sodales ultricies</li>
-            <li>Vestibulum laoreet porttitor sem</li>
-            <li>Ac tristique libero volutpat at</li>
-        </ul>
-    </li>-->
-
-                                    </ul>
-                                </div>
-
-                            </div>
-
-
-                        </div>
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="loader-track">
+            <div class="preloader-wrapper">
+                <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-yellow">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-green">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <aside class="aside-fanpage">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1271075489677597"
-                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </aside>
-    </div>
-    <!--=========================================================================================================-->
-
-    <FOOTER>
-        <div class="col-md-12 text-center">
-            <i class="fas fa-envelope "></i> <span>myoli9311@hotmail.com</span> &nbsp;&nbsp;&nbsp;<i class="fab fa-skype"></i> <span>live:myoli9311</span>
         </div>
-    </FOOTER>
-</BODY>
-</HTML>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="heads" class="heads">
+        <div class="heads-overlay-box"></div>
+        <div class="heads-container navbar-wrapper">
+
+            <!--Inicio Barra Horizontal ====================-->
+            <nav class="navbar header-navbar heads-header">
+                <div class="navbar-wrapper">
+                    <div class="navbar-logo">
+                        <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <div class="mobile-search waves-effect waves-light">
+                            <div class="header-search">
+                                <div class="main-search morphsearch-search">
+                                    <div class="input-group">
+                                        <span class="input-group-prepend search-close"><i class="ti-close input-group-text"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter Keyword">
+                                        <span class="input-group-append search-btn"><i class="ti-search input-group-text"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="index.html">
+                            <img class="img-fluid logomenu_header" src="../img/DSW.png" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options waves-effect waves-light">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li>
+                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()" class="waves-effect waves-light">
+                                    <i class="ti-fullscreen"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav-right">
+                            <li class="user-profile header-notification">
+                                <a href="#!" class="waves-effect waves-light">
+                                    <img src="../img/perfil.png" class="img-radius" alt="User-Profile-Image">
+                                    <span>Cesar Alejandro C</span>
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+
+                                    <li class="waves-effect waves-light">
+                                        <a href="Autor.html">
+                                            <i class="ti-user"></i> Autor
+                                        </a>
+                                    </li>
+                                    <li class="waves-effect waves-light">
+                                        <a onclick="VerificaMsjs();">
+                                            <i class="ti-email"></i> Mis Mensajes
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  <!--/Fin Barra Horizontal ==============-->
+
+            <div class="heads-main-container">
+                <div class="heads-wrapper">
+                    <!--Inicio Menú Vertical   ==================-->
+                    <nav class="heads-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="heads-inner-navbar main-menu">
+                            <div class="mb-3"> </div>
+                            <div class="heads-navigation-label">Navegación</div>
+                            <ul class="heads-item heads-left-item">
+                                <li class="">
+                                    <a href="Index.html" class="waves-effect waves-dark">
+                                        <span class="heads-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="heads-mtext">Inicio</span>
+                                        <span class="heads-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--=======================================================================================-->
+                            <div class="heads-navigation-label">Unidades</div>
+                            <ul class="heads-item heads-left-item">
+                                <li class="heads-hasmenu ">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="heads-micon"><i class="ti-files"></i><b>BC</b></span>
+                                        <span class="heads-mtext">Temas</span>
+                                        <span class="heads-mcaret"></span>
+                                    </a>
+                                    <ul class="heads-submenu">
+                                        <li class="">
+                                            <a href="Fase1.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Tema   1</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="Fase2.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Tema   2</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="Fase3.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Tema   3</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--======================================================================================-->
+                            <div class="heads-navigation-label">Recursos</div>
+                            <ul class="heads-item heads-left-item">
+                                <li class="heads-hasmenu active heads-trigger">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="heads-micon"><i class="ti-html5"></i><b>A</b></span>
+                                        <span class="heads-mtext">Digitales </span>
+                                        <span class="heads-mcaret"></span>
+                                    </a>
+                                    <ul class="heads-submenu">
+                                        <li class="active">
+                                            <a href="Recurso1.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Recurso No. 1</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="Recurso2.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Recurso No. 2</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--======================================================================================-->
+                            <div class="heads-navigation-label">Aprendizaje</div>
+                            <ul class="heads-item heads-left-item">
+                                <li class="heads-hasmenu">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="heads-micon"><i class="ti-stats-up"></i><b>BC</b></span>
+                                        <span class="heads-mtext">Actividades </span>
+                                        <span class="heads-mcaret"></span>
+                                    </a>
+                                    <ul class="heads-submenu">
+                                        <li class=" ">
+                                            <a href="breadcrumb.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Actividades   1</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="button.html" class="waves-effect waves-dark">
+                                                <span class="heads-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="heads-mtext">Actividades   2</span>
+                                                <span class="heads-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--======================================================================================-->
+                            <div class="heads-navigation-label">Acerca De</div>
+                            <ul class="heads-item heads-left-item">
+                                <li class="">
+                                    <a href="Autor.html" class="waves-effect waves-dark">
+                                        <span class="heads-micon"><i class="ti-info-alt"></i><b>C</b></span>
+                                        <span class="heads-mtext">Autor</span>
+                                        <span class="heads-mcaret"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!--======================================================================================-->
+                        </div>
+                    </nav>
+                    <!--/Fin Menú Vertical   ====================-->
+
+                    <div class="heads-content">
+
+                        <!--Contenido Grid Css  ================================================================================================-->
+                        <div class="contentBodyF4">
+                            <section class="ContentF3">
+                                <!--=====================================================================================================================-->
+                                <div class="heads-inner-content">
+                                    <div class="main-body">
+
+                                        <div class="page-wrapper">
+                                            <div class="page-body">
+                                                <h4 class="text_primary text-center mb-3">Recurso 1 Programación HTML5 y CSS3</h4>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Recursos Multimedia </h5>
+                                                                <span>Dise&ntilde;o y costrucci&oacute;n II</span>
+                                                                <div class="card-header-right">
+                                                                    <ul class="list-unstyled card-option">
+                                                                        <li>
+                                                                            <i class="fa fa fa-wrench open-card-option"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-minus minimize-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-refresh reload-card"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="fa fa-trash close-card"></i>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-block">
+
+
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+
+                                                                        <div class="tabs">
+                                                                            <input hidden type="radio" name="tab-css" id="tab-0" checked />
+                                                                            <label class="tab-control" for="tab-0">ETIQUETAS</label>
+                                                                            <input hidden type="radio" name="tab-css" id="tab-1" />
+                                                                            <label class="tab-control" for="tab-1">HTML5</label>
+                                                                            <input hidden type="radio" name="tab-css" id="tab-2" />
+                                                                            <label class="tab-control" for="tab-2">CSS3 </label>
+                                                                            <input hidden type="radio" name="tab-css" id="tab-3" />
+                                                                            <label class="tab-control" for="tab-3">GRID CSS</label>
+                                                                            <input hidden type="radio" name="tab-css" id="tab-4" />
+                                                                            <label class="tab-control" for="tab-4">BIBLIOGRAFIA</label>
+                                                                            <div class="tab-content">
+                                                                                <div id="tab-panel-0" class="tab-panel">
+                                                                                    <h3>ETIQUETAS HTML</h3>
+                                                                                    <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/Recurso%20EtiquetasHTML5_Personal.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                                                                                </div>
+                                                                                <div id="tab-panel-1" class="tab-panel">
+                                                                                    <h3>HTML</h3>
+                                                                                    <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/Curso_HTML5_v1.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                                                                                </div>
+                                                                                <div id="tab-panel-2" class="tab-panel">
+                                                                                    <h3>CSS3</h3>
+                                                                                    <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/CursoCSS3.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                                                                                </div>
+                                                                                <div id="tab-panel-3" class="tab-panel">
+                                                                                    <h3>GRID CSS</h3>
+                                                                                    <iframe src="https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/CSSGrid_layout.pdf" frameborder="0" height="600px" width="100%"></iframe>
+                                                                                </div>
+                                                                                <div id="tab-panel-4" class="tab-panel">
+                                                                                    <h3>Bibliografia de Recursos 1</h3>
+                                                                                    <div class="position-relative">
+                                                                                        <div class="biblio-body">
+                                                                                            <div class="cintas-Heads cintas-lg">
+                                                                                                <div class="cintas bg-info">
+                                                                                                    Normas Apa
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <ul>
+
+                                                                                                <li>
+                                                                                                    Molano, C. A. (20 de Junio de 2021). Recurso Etiquetas HTML5. Obtenido de Diseño Sitios Web<br />
+                                                                                                    <span><a href="https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/Recurso%20EtiquetasHTML5_Personal.pdf">https://alejandroheads.github.io/DSW_CESARCABEZAS/Doc/Recurso%20EtiquetasHTML5_Personal.pdf</a></span>
+                                                                                                </li>
+
+                                                                                                <li>
+                                                                                                    contributors, M. (15 de Jun de 2021). CSS Grid Layout. Obtenido de<br />
+                                                                                                    <span><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout">https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout</a></span>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Docs, M. W. (16 de junio de 2021). (iframe ): el elemento Inline Frame. Obtenido de <br />
+                                                                                                    <span><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe">https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe</a></span>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Jiménez, J. D. (20 de Enero de 2019). Qué es CSS3 y sus fundamentos. Obtenido de Openwebinars:<br />
+                                                                                                    <span><a href="https://openwebinars.net/blog/que-es-css3/">https://openwebinars.net/blog/que-es-css3/ </a></span>
+                                                                                                </li>
+
+                                                                                            </ul>
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--=================================================================================================================-->
+                            <aside class="aside-fanpage">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1271075489677597" width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </aside>
+                            <!--=================================================================================================================-->
+                        </div>
+
+                        <!--====================================================================================================================-->
+
+                    </div>
+                    <div id="styleSelector"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--=========================================================================================================-->
+    <footer>
+        <div class="col-md-12 text-center">
+            <i class="fas fa-envelope "></i> <span>ce_alejandro_c@hotmail.com</span> &nbsp;&nbsp;&nbsp;<i class="fab fa-skype"></i> <span>AlejandroKbzas</span>
+        </div>
+    </footer>
+    <!--=========================================================================================================-->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="../content/Js/jquery/jquery.min.js "></script>
+    <script type="text/javascript" src="../content/Js/jquery-ui/jquery-ui.min.js "></script>
+    <script type="text/javascript" src="../content/Bootstrap/js/bootstrap-growl.min.js"></script>
+    <script type="text/javascript" src="../content/Bootstrap/js/bootstrap.js "></script>
+    <!-- waves js -->
+    <script src="../content/waves/Js/waves.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <!--<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>-->
+
+    <script src="../content/Js/heads.min.js"></script>
+    <script src="../content/Js/vertical/vertical-layout.min.js"></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="../content/Js/script.js"></script>
+    <!--Implementación Notificaciones Personalizadas-->
+    <script type="text/javascript" src="../content/HeadsNotific/HeadsNotific.js"></script>
+</body>
+
+</html>
