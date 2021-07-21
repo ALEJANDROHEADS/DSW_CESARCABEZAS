@@ -61,7 +61,7 @@ height:50px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     top: 10px;
-    -webkit-transform: rotate(45deg);
+   /* -webkit-transform: rotate(45deg);*/
     transform: rotate(45deg);
     width: 90px;
 }
@@ -325,7 +325,7 @@ body {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 4px;
-    -webkit-transition: all 0.2s ease-in-out;
+    /*-webkit-transition: all 0.2s ease-in-out;*/
             transition: all 0.2s ease-in-out;
 }
 .img-sm {
