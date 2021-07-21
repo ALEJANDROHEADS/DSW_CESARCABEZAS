@@ -5318,7 +5318,7 @@ table tbody .border-bottom-info td {
 
         .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li,
         .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li {
-            border-top: 1px solid #448aff, #ffe100, #d6d6d6, #ff5252, #11c15b, #37474f, #00bcd4;
+            border-top: 1px solid #448aff; /*, #ffe100, #d6d6d6, #ff5252, #11c15b, #37474f, #00bcd4;*/
             line-height: initial;
             padding: 1em 20px;
             width: 100%;
