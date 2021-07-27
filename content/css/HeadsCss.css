@@ -152,7 +152,7 @@ input[type="radio"]:checked + .tab-control {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height: 100%;
     padding: 20px;
-    max-height: 1600px;
+    max-height: 2200px;
     margin-bottom:150px;
 }
 .contentBodyF3 {
@@ -177,6 +177,7 @@ input[type="radio"]:checked + .tab-control {
     grid-column: 5/6;
     background-color: #fff;
     padding: 2px;
+    max-height: 2200px;
 }
 
 .LogoUnad {
@@ -196,6 +197,7 @@ footer {
     border-top: 1px solid #dee2e6;
     color: #869099;
     padding: .5rem;
+    z-index: 10000;
 }
 
 .bg-info {

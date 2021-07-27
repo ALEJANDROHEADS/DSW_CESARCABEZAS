@@ -1,3 +1,5 @@
+
+
 function VerificaMsjs() {
 
 
@@ -104,16 +106,18 @@ $(document).ready(function() {
     });
 
     // card js end
-    $.mCustomScrollbar.defaults.axis = "yx";
-    $("#styleSelector .style-cont").slimScroll({
-        setTop: "1px",
-        height:"calc(100vh - 320px)",
-    });
-    $(".main-menu").mCustomScrollbar({
-        setTop: "1px",
-        setHeight: "calc(100% - 56px)",
-    });
-    /*chatbar js start*/
+    //$.mCustomScrollbar.defaults.axis = "yx";
+    //$("#styleSelector .style-cont").slimScroll({
+    //    setTop: "1px",
+    //    height:"calc(100vh - 320px)",
+    //});
+    //$(".main-menu").mCustomScrollbar({
+    //    setTop: "1px",
+    //    setHeight: "calc(100% - 56px)",
+    //});
+/*chatbar js start*/
+
+
     /*chat box scroll*/
     var a = $(window).height() - 80;
     $(".main-friend-list").slimScroll({
@@ -195,11 +199,11 @@ $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip();
 
     // wave effect js
-    Waves.init();
-    Waves.attach('.flat-buttons', ['waves-button']);
-    Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
-    Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
-    Waves.attach('.flat-buttons', ['waves-button', 'waves-float', 'waves-light', 'flat-buttons']);
+    //Waves.init();
+    //Waves.attach('.flat-buttons', ['waves-button']);
+    //Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
+    //Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
+    //Waves.attach('.flat-buttons', ['waves-button', 'waves-float', 'waves-light', 'flat-buttons']);
 
     $('.form-control').on('blur', function() {
         if ($(this).val().length > 0) {
