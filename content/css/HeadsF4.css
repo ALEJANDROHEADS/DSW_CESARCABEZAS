@@ -5061,6 +5061,7 @@ table tbody .border-bottom-info td {
     width: 100%;
     z-index: 99;
     height: 100% !important;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 992px) {

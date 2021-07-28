@@ -14,7 +14,7 @@ $mail->SMTPSecure = 'tls'; //seguridad
 $mail->Host = "smtp.gmail.com"; // servidor smtp
 $mail->Port = 587; //puerto
 $mail->Username ='HeadsNetPrueba@gmail.com'; //nombre usuario
-$mail->Password = 'Cesar12345*'; //contraseña
+$mail->Password = '********'; //contraseña
 
 //Agregar destinatario
 $mail->AddAddress($_POST['email']);
