@@ -33,11 +33,13 @@
     <link rel="stylesheet" type="text/css" href="../content/icon/themify-icons/themify-icons.css">
     <!--Implementación de Notificacione personalizadas -->
     <link href="../content/HeadsNotific/HeadsNotific.css" rel="stylesheet" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="../content/css/animate.css">
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <!-- Custom js -->
 
-  
+
 
 </head>
 
@@ -355,27 +357,27 @@
                                                                     <div class="col-sm-6 mb-3">
                                                                         <form class="form-material">
                                                                             <div class="form-group form-info">
-                                                                                <input type="text" name="footer-email" class="form-control">
+                                                                                <input type="text" name="footer-email" id="NombreContacto" class="form-control">
                                                                                 <span class="form-bar"></span>
                                                                                 <label class="float-label">Nombre</label>
                                                                             </div>
                                                                             <div class="form-group form-info">
-                                                                                <input type="text" name="footer-email" class="form-control">
+                                                                                <input type="text" name="footer-email" id="EmailContacto" class="form-control">
                                                                                 <span class="form-bar"></span>
                                                                                 <label class="float-label">Email (ejemplo@gmail.com)</label>
                                                                             </div>
                                                                             <div class="form-group form-info">
-                                                                                <input type="text" name="Asunto" class="form-control">
+                                                                                <input type="text" name="Asunto" id="AsuntoContacto" class="form-control">
                                                                                 <span class="form-bar"></span>
                                                                                 <label class="float-label">Asunto</label>
                                                                             </div>
 
                                                                             <div class="form-group form-info">
-                                                                                <textarea class="form-control"></textarea>
+                                                                                <textarea class="form-control" id="MensajeContacto"></textarea>
                                                                                 <span class="form-bar"></span>
                                                                                 <label class="float-label">mensaje</label>
                                                                             </div>
-                                                                            <input type="button" id="BtnEnviar" class="btn btn-info  btn-block" onclick="EnviaContacto();" title="Enviar Contacto!" value=" Enviar Contacto "  />
+                                                                            <input type="button" id="BtnEnviar" class="btn btn-info  btn-block" onclick="ValidarContacto();" title="Enviar Contacto!" value=" Enviar Contacto " />
                                                                         </form>
                                                                     </div>
 
@@ -431,6 +433,7 @@
     <script type="text/javascript" src="../content/Js/jquery-slimscroll/jquery.slimscroll.js"></script>
 
     <!--Implementación Notificaciones Personalizadas-->
+    <script type="text/javascript" src="../content/Bootstrap/js/bootstrap-growl.min.js"></script>
     <script type="text/javascript" src="../content/HeadsNotific/HeadsNotific.js"></script>
     <script type="text/javascript" src="../content/Js/heads.min.js"></script>
     <script type="text/javascript" src="../content/Js/script.js"></script>
